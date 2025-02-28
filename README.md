@@ -32,6 +32,8 @@ You can interact with the smart contract on the local network now.
 
 - `npm run compile` to compile the solidity code
 - `npm run deploy` to deploy the contract on the hardhat network
+- `npm run deploy_sepolia` to deploy the contract on the sepolia network
+- `npm run deploy_bsc_testnet` to deploy the contract on the bsc testnet network
 - `npm run test` to run the unit testing of the contract
 
 
@@ -39,7 +41,7 @@ You can interact with the smart contract on the local network now.
 
 ## TEST RESULT
 
-# Contract
+# Contract on Sepolia
 - `TokenStaking`: "0x4E3f8aBBed8980F3297691A814C2bE7357ddF5a1",
 - `TokenReward`: "0x651d156A5a76e0b05150815950Dde7F639C734AE",
 - `StakingRewards`: "0xf5FafE5EC910cBE462B977ed2A2B9BFc7f8740d3"
