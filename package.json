@@ -1,0 +1,30 @@
+{
+  "name": "staking-rewards",
+  "version": "1.0.0",
+  "description": "Staking Rewards smart contract",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deployments/main.ts",
+    "deploy_bsc_testnet": "npx hardhat run scripts/deployments/main.ts --network bsc_testnet",
+    "deploy_base_testnet": "npx hardhat run scripts/deployments/main.ts --network base_testnet",
+    "deploy_sepolia": "npx hardhat run scripts/deployments/main.ts --network sepolia",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage ",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@nomicfoundation/hardhat-ignition": "^0.15.10",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomicfoundation/hardhat-verify": "^2.0.13",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@openzeppelin/contracts": "^4.8.3",
+    "hardhat": "^2.13.1",
+    "solhint": "^3.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "path": "^0.12.7"
+  }
+}
